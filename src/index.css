@@ -9,6 +9,11 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+::selection {
+  background-color: #00473e; /* Cor de fundo (ex: verde claro do Tailwind) */
+  color: #ffffff; /* Cor do texto selecionado (ex: verde escuro) */
+}
+
 input {
   outline: none !important;
 }

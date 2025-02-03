@@ -9,7 +9,7 @@ function App() {
     switch (currentScreen) {
       case "login":
         return (
-          <div className="w-full max-w-md px-6">
+          <div className="w-full fixed max-w-md px-6">
             <div className="mb-12">
               <img
                 src="/DineeLogin//logo.svg"
