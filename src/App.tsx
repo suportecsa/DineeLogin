@@ -11,7 +11,11 @@ function App() {
         return (
           <div className="w-full max-w-md px-6">
             <div className="mb-12">
-              <img src="/logo.png" alt="DINEE" className="h-12 mx-auto" />
+              <img
+                src="/DineeLogin/public/logo.png"
+                alt="DINEE"
+                className="h-12 mx-auto"
+              />
             </div>
 
             <div className="space-y-4">
@@ -51,13 +55,17 @@ function App() {
 
             <div className="mt-8 space-y-4">
               <button className="w-full bg-white flex items-center justify-center gap-3 py-3 border border-gray-300 rounded-3xl hover:bg-gray-50 transition-colors">
-                <img src="/google.png" alt="Google" className="w-5 h-5" />
+                <img
+                  src="/DineeLogin/public/google.png"
+                  alt="Google"
+                  className="w-5 h-5"
+                />
                 <span className="text-gray-700">Continue com Google</span>
               </button>
 
               <button className="w-full bg-white flex items-center justify-center gap-3 py-3 border border-gray-300 rounded-3xl hover:bg-gray-50 transition-colors">
                 <img
-                  src="/logotipo-da-apple.png"
+                  src="/DineeLogin/public/logotipo-da-apple.png"
                   alt="Apple"
                   className="w-5 h-5"
                 />
@@ -71,7 +79,11 @@ function App() {
         return (
           <div className="w-full max-w-md px-6 text-center">
             <div className="mb-12">
-              <img src="/logo.png" alt="DINEE" className="h-12 mx-auto" />
+              <img
+                src="/DineeLogin/public/logo.png"
+                alt="DINEE"
+                className="h-12 mx-auto"
+              />
             </div>
 
             <div className="flex animate-bounce justify-center mb-8">
